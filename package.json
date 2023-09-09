@@ -1,0 +1,36 @@
+{
+  "name": "skipper_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/SkipperAfrica/skipper_backend.git"
+  },
+  "keywords": [],
+  "author": "Omoboye Moses",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkipperAfrica/skipper_backend/issues"
+  },
+  "homepage": "https://github.com/SkipperAfrica/skipper_backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "mailgen": "^2.0.27",
+    "mongoose": "^6.9.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "otp-generator": "^4.0.1",
+    "validator": "^13.9.0"
+  }
+}
